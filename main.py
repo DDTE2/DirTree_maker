@@ -43,6 +43,7 @@ class Tree:
                     structure[path].append(file)
 
         if self.path == self.project_path:  # Если искомая папка и папка проекта - одна и та же, удаляем папку dirs из списка
+            structure[''].remove('main.py')
             try:
                 structure.pop('\\files')
                 structure.pop('\\files (сжатые данные)')
