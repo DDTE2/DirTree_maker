@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0c0168a-8f60-43c6-8a94-accb6b0e4819" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e0c0168a-8f60-43c6-8a94-accb6b0e4819" name="Changes" comment="1.0.1&#10;&#10;- Теперь, файл main.py автоматически удаляется из списка,&#10;если директория проекта и папка пользователя - одна папка.">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -58,6 +58,14 @@
       <option name="presentableId" value="Default" />
       <updated>1694825072849</updated>
     </task>
+    <task id="LOCAL-00001" summary="1.0.1&#10;&#10;- Теперь, файл main.py автоматически удаляется из списка,&#10;если директория проекта и папка пользователя - одна папка.">
+      <created>1694831625216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694831625216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,5 +78,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0.1&#10;&#10;- Теперь, файл main.py автоматически удаляется из списка,&#10;если директория проекта и папка пользователя - одна папка." />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.1&#10;&#10;- Теперь, файл main.py автоматически удаляется из списка,&#10;если директория проекта и папка пользователя - одна папка." />
   </component>
 </project>

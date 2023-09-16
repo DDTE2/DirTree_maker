@@ -10,6 +10,7 @@ from json import dumps
 from os import mkdir, walk
 from os.path import abspath, exists
 from zlib import compress
+from shutil import rmtree
 
 
 class Tree:
@@ -100,3 +101,14 @@ if __name__ == '__main__':
             print('Произошла неизвестная ошибка!', error, sep='\n')
         finally:  # В конце, запрашиваем у пользователя путь к папке и выполняем алгоритм заново
             path = input('Введите новый путь к папке:\n')
+
+    # Удаляем созданные в процессе файлы
+    path = '\\'.join(abspath(__file__).split('\\')[:-1])
+
+    try:
+        rmtree(rf'{path}\files')
+    finally:
+        try:
+            rmtree(rf'{path}\files (сжатые данные)')
+        except:
+            pass
